@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+html {
+    display: flex;
+}
+
+
+body {
+    background-image: linear-gradient(#99b29d, #193123);
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.top {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+
+
+
+.foot {
+    margin-top: 100px;
+}
+
+.line{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.text3{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+.text1 {
+    margin-top: 0%;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(130, 135, 149);
+    text-align: center;
+    margin-top: -60px;
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+
+
+.box {
+    width: 30px;
+    height: 10px;
+    float: left;
+
+}
+
+.white {
+    background-color: white;
+    width: 200px;
+}
+
+.blue {
+    width: 340px;
+    background: #a7d1db;
+
+}
+
+
+.percentcontainer>p {
+    color: rgb(255, 255, 255);
+    word-spacing: 460px;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: #add9e4;
+    padding: 10px 16px;
+    width: 140px;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.icon {
+    margin-top: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+
+
+}
+
+.twitter {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.in {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+.mail {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+}
